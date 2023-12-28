@@ -4,7 +4,7 @@
 public class Perfect {
 	public static void main (String[] args) {
 		int indexNum = Integer.parseInt(args[0]);
-		String isPerfect = indexNum + " is a perfect number since " + indexNum + " =  1";
+		String isPerfect = indexNum + " is a perfect number since " + indexNum + " = 1";
 		int sum = 1;
 
 		for (int i = 2; i < indexNum; i++) {
