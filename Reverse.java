@@ -15,7 +15,8 @@ public class Reverse {
 
 		int length = index.length();
 		int middle = 0;
-
+		
+		// #feedback - Use of "if" is unnecessary here. ((length-1) / 2) will give the middle character in both scenarios.
 		if (length % 2 == 0) {
 			middle = (length / 2) - 1;
 		}
