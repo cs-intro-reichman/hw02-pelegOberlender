@@ -11,11 +11,11 @@ public class OneOfEach {
 		double chance = Math.random();
 			
 		
-		while((isGirl == false) || (isBoy == false)) {
+		while((isGirl == false) || (isBoy == false)) { // #feedback - you can also write "!isGirl || !isBoy".
 			if(chance < 0.5) {
 				isGirl = true;
 				System.out.print("g ");
-				count++;
+				count++; // #feedback - you can increase the count outside of the "if" since it is relevant always.
 			}
 			else {
 				isBoy = true;
