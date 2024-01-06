@@ -7,7 +7,7 @@ public class Divisors {
 		
 		for(int i = 1; i <= indexNum; i++) {
 			if(indexNum % i == 0)
-			System.out.println(i);
+			System.out.println(i); // #feedback - note the indentation here.
 		}
 	
 	}
